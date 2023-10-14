@@ -11,6 +11,9 @@ app.get('/', function(req, res){
     res.send('Welcome to api')
 });
 
+app.get('/getdemo', function(req, res){
+    res.send('this is demo')
+});
 
 app.get('/getRequest', function(req, res){
     res.send('This is GET request api')
